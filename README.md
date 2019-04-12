@@ -1,3 +1,9 @@
+Gatsby-Tutorials
+
+https://www.youtube.com/watch?v=6YhqQ2ZW1sc (Traversy Media)
+
+Changed something in gatsby-node.js and templates/blog-post.js to get it working. Did display blog post in separate page and not inside layout-component.
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

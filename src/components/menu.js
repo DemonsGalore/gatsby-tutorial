@@ -1,0 +1,23 @@
+import React from 'react'
+import Link from 'gatsby-link'
+
+const Menu = () => (
+  <nav style={{
+    background: '#f4f4f4',
+    paddingTop: '10px',
+    fontFamily: '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif'
+  }}>
+    <ul style={{
+      listStyle: 'none',
+      display: 'flex',
+      justifyContent: 'space-evenly'
+    }}>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/blog">Blog</Link></li>
+      <li><Link to="/about">About</Link></li>
+      <li><Link to="/services">Services</Link></li>
+    </ul>
+  </nav>
+)
+
+export default Menu
